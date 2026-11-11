@@ -1,4 +1,268 @@
 
+<style>
+.mjs-purpose {
+  background: #071b3b;
+  padding: 65px 7%;
+  color: white;
+}
+
+.mjs-purpose-header {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.mjs-purpose-header h2 {
+  color: #d6ad52;
+  font-size: 32px;
+}
+
+.mjs-purpose-header p {
+  color: #fff;
+  margin-top: 12px;
+}
+
+.mjs-purpose-header span {
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #d6ad52;
+  margin: 15px auto;
+}
+
+.mjs-purpose-hero {
+  position: relative;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.mjs-purpose-hero img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+}
+
+.mjs-purpose-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #071b3b 5%, #071b3b88 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+}
+
+.mjs-purpose-overlay h3 {
+  color: #d6ad52;
+  font-size: 32px;
+  max-width: 650px;
+}
+
+.mjs-purpose-overlay p {
+  max-width: 650px;
+  margin-top: 15px;
+  line-height: 1.9;
+}
+
+.mjs-purpose-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.mjs-purpose-card {
+  background: #fff;
+  color: #071b3b;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom: 4px solid #d6ad52;
+  transition: .3s;
+}
+
+.mjs-purpose-card:hover {
+  transform: translateY(-6px);
+}
+
+.mjs-purpose-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.mjs-purpose-card div {
+  padding: 22px;
+}
+
+.mjs-purpose-card h3 {
+  color: #123d72;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.mjs-purpose-card p {
+  color: #4b5563;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.mjs-purpose-slogan {
+  background: #123d72;
+  border: 2px solid #d6ad52;
+  padding: 35px 20px;
+  margin-top: 45px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.mjs-purpose-slogan h2 {
+  color: #d6ad52;
+  font-size: 30px;
+}
+
+.mjs-purpose-slogan p {
+  margin-top: 12px;
+  line-height: 1.9;
+}
+
+@media(max-width:750px) {
+  .mjs-purpose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mjs-purpose-hero img {
+    height: 400px;
+  }
+
+  .mjs-purpose-overlay h3 {
+    font-size: 25px;
+  }
+}
+</style>
+
+<section class="mjs-purpose" id="ujeedooyinka">
+
+  <div class="mjs-purpose-header">
+    <h2>Ururka Mustaqbalka Jiilka Soomaaliyeed</h2>
+    <span></span>
+    <p>
+      Aragti mideysan, himilo fog iyo jiil masuuliyad leh.
+    </p>
+  </div>
+
+  <div class="mjs-purpose-hero">
+    <img
+      src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1500&q=85"
+      alt="Dhalinyaro wadajir u shaqaynaysa">
+
+    <div class="mjs-purpose-overlay">
+      <h3>Jiilka Maanta, Mustaqbalka Berri</h3>
+      <p>
+        MJS waa urur u taagan dhiirrigelinta jiilka
+        Soomaaliyeed, kobcinta aqoonta, wada-tashiga,
+        hoggaaminta wanaagsan iyo ka qayb qaadashada
+        dhismaha Soomaaliya horumarsan.
+      </p>
+    </div>
+  </div>
+
+  <div class="mjs-purpose-grid">
+
+    <div class="mjs-purpose-card">
+      <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85"
+      alt="Wada shaqayn">
+      <div>
+        <h3>1. Midnimo Soomaaliyeed</h3>
+        <p>
+          Xoojinta midnimada, wadajirka iyo iskaashiga
+          bulshada Soomaaliyeed. MJS wuxuu dhiirrigelinayaa
+          is-ixtiraam, wada-hadal iyo in kala duwanaanshaha
+          fikirka loo beddelo fursad wax lagu wada dhiso.
+        </p>
+      </div>
+    </div>
+
+    <div class="mjs-purpose-card">
+      <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=85"
+      alt="Waxbarasho">
+      <div>
+        <h3>2. Horumarinta Aqoonta</h3>
+        <p>
+          Dhiirrigelinta waxbarashada, wacyigelinta,
+          cilmi-baarista iyo hal-abuurka. Waxaan hiigsaneynaa
+          jiil leh aqoon iyo faham uu bulshada ugu
+          adeegayo si masuuliyad leh.
+        </p>
+      </div>
+    </div>
+
+    <div class="mjs-purpose-card">
+      <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=85"
+      alt="Dhalinyaro">
+      <div>
+        <h3>3. Hoggaaminta Jiilka</h3>
+        <p>
+          Kobcinta kartida hoggaamineed iyo dhiirrigelinta
+          masuuliyadda, daacadnimada, hufnaanta iyo
+          isla-xisaabtanka jiilka cusub.
+        </p>
+      </div>
+    </div>
+
+    <div class="mjs-purpose-card">
+      <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=85"
+      alt="Dhalinyaro wada shaqaynaysa">
+      <div>
+        <h3>4. Wada-tashi Siyaasadeed</h3>
+        <p>
+          Abuurista madal ay xubnaha iyo dhalinyaradu
+          si xor ah ugu falanqeeyaan arrimaha dalka,
+          fikradaha siyaasadeed iyo xalalka danta guud.
+        </p>
+      </div>
+    </div>
+
+    <div class="mjs-purpose-card">
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85"
+      alt="Bulsho iyo iskaashi">
+      <div>
+        <h3>5. Nabadda iyo Caddaaladda</h3>
+        <p>
+          Dhiirrigelinta nabadda, caddaaladda,
+          isu-tanaasulka iyo xalinta khilaafaadka
+          iyadoo la adeegsanayo wada-hadal iyo isfaham.
+        </p>
+      </div>
+    </div>
+
+    <div class="mjs-purpose-card">
+      <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=900&q=85"
+      alt="Jiil wax baranaya">
+      <div>
+        <h3>6. Mustaqbal iyo Horumar</h3>
+        <p>
+          Taageeridda fikradaha cusub, shaqo-abuurka,
+          fursadaha dhalinyarada iyo qorshayaasha
+          lagu horumarinayo bulshada Soomaaliyeed.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="mjs-purpose-slogan">
+    <h2>MJS – Mustaqbalka Jiilka Soomaaliyeed</h2>
+    <p>
+      Jiil aqoon leh, bulsho midaysan,
+      hoggaan masuul ah iyo Soomaaliya horumarsan.
+    </p>
+    <h3 style="color:#d6ad52;margin-top:18px;">
+      MIDNIMO • HOGGAAN • HORUMAR
+    </h3>
+  </div>
+
+  </section>
+
 <!-- MJS SOMALI YOUTH INSPIRATION -->
 
 <style>
