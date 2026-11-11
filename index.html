@@ -1,140 +1,53 @@
 
-<section id="ujeedooyinka" class="mjs-section">
-  <div class="mjs-container">
-    <h2>UJEEDDOOYINKA MJS</h2>
-    <p class="mjs-intro">
-      MJS waa urur u taagan midnimada, horumarka,
-      wacyigelinta iyo dhismaha bulshada Soomaaliyeed.
-    </p>
-
-    <div class="mjs-grid">
-      <div class="mjs-card">
-        <h3>01. Midnimada Bulshada</h3>
-        <p>
-          Xoojinta midnimada, walaaltinimada iyo
-          wadajirka bulshada Soomaaliyeed.
-        </p>
-      </div>
-
-      <div class="mjs-card">
-        <h3>02. Waxbarashada</h3>
-        <p>
-          Dhiirrigelinta waxbarashada, aqoonta iyo
-          kobcinta xirfadaha dhalinyarada.
-        </p>
-      </div>
-
-      <div class="mjs-card">
-        <h3>03. Horumarinta Dhalinyarada</h3>
-        <p>
-          Abuurista fursado horumarineed iyo
-          dhiirrigelinta hoggaaminta dhalinyarada.
-        </p>
-      </div>
-
-      <div class="mjs-card">
-        <h3>04. Wacyigelinta Bulshada</h3>
-        <p>
-          Kor u qaadista wacyiga bulshada,
-          xuquuqda muwaadinka iyo masuuliyadda.
-        </p>
-      </div>
-
-      <div class="mjs-card">
-        <h3>05. Nabadda iyo Iskaashiga</h3>
-        <p>
-          Ka shaqaynta nabadda, is-afgaradka
-          iyo iskaashiga bulshada.
-        </p>
-      </div>
-
-      <div class="mjs-card">
-        <h3>06. Adeegga Bulshada</h3>
-        <p>
-          Ka qayb qaadashada hawlaha samafalka
-          iyo horumarinta nolosha bulshada.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MJS Official</title>
 <style>
-.mjs-section {
-  padding: 55px 20px;
-  background: #f5f7fa;
-  font-family: Arial, sans-serif;
-}
-.mjs-container {
-  max-width: 1100px;
-  margin: auto;
-}
-.mjs-section h2 {
-  text-align: center;
-  color: #123d2b;
-  font-size: 30px;
-}
-.mjs-intro {
-  text-align: center;
-  color: #555;
-  line-height: 1.8;
-  max-width: 700px;
-  margin: 15px auto 35px;
-}
-.mjs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
-  gap: 20px;
-}
-.mjs-card {
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-  border-left: 4px solid #c9a227;
-  box-shadow: 0 4px 15px #00000012;
-}
-.mjs-card h3 {
-  color: #123d2b;
-  font-size: 19px;
-}
-.mjs-card p {
-  color: #555;
-  line-height: 1.8;
-}
-  </style>
-
-<button onclick="downloadMJS()">
-  ⬇️ Soo Degso Ujeeddooyinka MJS (PDF)
-</button>
-
-<script>
-function downloadMJS() {
-  const content = `
-  UJEEDDOOYINKA URURKA MJS
-
-  1. Midnimada iyo walaaltinimada bulshada.
-  2. Horumarinta dhalinyarada Soomaaliyeed.
-  3. Dhiirrigelinta waxbarashada iyo aqoonta.
-  4. Nabadda iyo wadajirka bulshada.
-  5. Wacyigelinta iyo ilaalinta xuquuqda bulshada.
-  6. Horumarinta xirfadaha dhalinyarada.
-  7. Taageeridda dadka nugul.
-  8. Kobcinta hoggaaminta iyo hal-abuurka.
-  9. Iskaashiga hay'adaha bulshada.
-  10. Ka shaqaynta horumarka dalka.
-  `;
-
-  const blob = new Blob([content], {
-    type: "text/plain;charset=utf-8"
-  });
-
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "MJS-Ujeeddooyinka.txt";
-  a.click();
-  URL.revokeObjectURL(url);
-}
-</script>
+body{margin:0;font-family:Arial;background:#f3f6fa;color:#17283d}
+header{background:#102b50;color:white;text-align:center;padding:35px 15px;border-bottom:5px solid #d9b45b}
+.logo{font-size:35px;font-weight:bold;color:#d9b45b}
+main{max-width:650px;margin:25px auto;padding:15px}
+section{background:white;padding:22px;margin:15px 0;border-radius:14px}
+h2{color:#102b50}
+.item{background:#edf2f8;padding:15px;margin:10px 0;border-radius:10px}
+footer{text-align:center;background:#102b50;color:white;padding:22px}
+a{color:#d9b45b}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">MJS</div>
+<h1>MJS OFFICIAL</h1>
+<p>Midnimo • Hoggaan • Horumar</p>
+</header>
+<main>
+<section>
+<h2>Ku soo dhowow MJS</h2>
+<p>Ku soo dhowow bogga rasmiga ah ee Ururka MJS.</p>
+<p>Halkaan kala soco wararka, hoggaanka iyo hawlaha ururka.</p>
+</section>
+<section>
+<h2>Hoggaanka MJS</h2>
+<div class="item">Guddoomiyaha Guud</div>
+<div class="item">Xoghayaha Guud</div>
+<div class="item">Madaxa Maaliyadda</div>
+<div class="item">Madaxa Warfaafinta</div>
+<div class="item">Madaxa Abaabulka</div>
+</section>
+<section>
+<h2>Wararka iyo Ogeysiisyada</h2>
+<p>Ku soo dhowaada bogga rasmiga ah ee MJS.</p>
+</section>
+<section>
+<h2>La xiriir MJS</h2>
+<p>Macluumaadka xiriirka ururka halkan ayaa lagu soo bandhigi doonaa.</p>
+</section>
+</main>
+<footer>© MJS Official 2026</footer>
+</body>
+</html>
 
   
