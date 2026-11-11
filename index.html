@@ -1,194 +1,328 @@
 
-<!-- MJS INSPIRATION SECTION -->
+<!-- MJS SOMALI YOUTH INSPIRATION -->
 
 <style>
-.inspiration {
-  background: #f3f5f9;
-  padding: 70px 7%;
+.mjs-inspire {
+  background: #071b3b;
+  padding: 75px 7%;
 }
 
-.inspiration-heading {
+.mjs-inspire-heading {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
-.inspiration-heading h2 {
-  color: #071b3b;
-  font-size: 32px;
+.mjs-inspire-heading h2 {
+  color: #d6ad52;
+  font-size: 34px;
 }
 
-.inspiration-heading span {
+.mjs-inspire-heading span {
   display: block;
-  width: 70px;
+  width: 85px;
   height: 4px;
   background: #d6ad52;
-  margin: 12px auto;
+  margin: 15px auto;
 }
 
-.inspiration-card {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  background: white;
-  margin-bottom: 30px;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 5px 20px #0001;
-}
-
-.inspiration-card:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-.inspiration-card img {
-  width: 48%;
-  min-height: 260px;
-  object-fit: cover;
-}
-
-.inspiration-text {
-  padding: 25px;
-  flex: 1;
-}
-
-.inspiration-text h3 {
-  color: #123d72;
-  font-size: 25px;
-  margin-bottom: 15px;
-}
-
-.inspiration-text p {
-  color: #536174;
+.mjs-inspire-heading p {
+  color: white;
   font-size: 16px;
 }
 
-.inspiration-text strong {
-  display: block;
-  color: #c49a3d;
+.mjs-story {
+  display: flex;
+  align-items: stretch;
+  background: white;
+  margin-bottom: 38px;
+  border-radius: 13px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #0004;
+  border: 1px solid #d6ad52;
+}
+
+.mjs-story:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.mjs-story img {
+  width: 48%;
+  min-height: 360px;
+  object-fit: cover;
+}
+
+.mjs-story-content {
+  padding: 35px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mjs-story-content small {
+  color: #b58b36;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.mjs-story-content h3 {
+  color: #071b3b;
+  font-size: 27px;
+  line-height: 1.4;
+  margin-bottom: 18px;
+}
+
+.mjs-story-content p {
+  color: #40506a;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.mjs-story-content strong {
+  color: #123d72;
+  border-left: 4px solid #d6ad52;
+  padding-left: 12px;
+  margin-top: 8px;
+}
+
+.mjs-photo-credit {
+  font-size: 11px;
+  color: #64748b;
   margin-top: 15px;
 }
 
-@media(max-width:650px) {
-  .inspiration-card,
-  .inspiration-card:nth-child(even) {
+.mjs-photo-credit a {
+  color: #123d72;
+}
+
+.mjs-final-message {
+  background: #123d72;
+  border: 2px solid #d6ad52;
+  border-radius: 12px;
+  padding: 40px 25px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.mjs-final-message h2 {
+  color: #d6ad52;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.mjs-final-message p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.9;
+  font-size: 17px;
+}
+
+@media(max-width:700px) {
+  .mjs-story,
+  .mjs-story:nth-child(even) {
     flex-direction: column;
   }
 
-  .inspiration-card img {
+  .mjs-story img {
     width: 100%;
-    min-height: 210px;
+    min-height: 230px;
+    max-height: 280px;
   }
 
-  .inspiration-text {
-    padding: 22px;
+  .mjs-story-content {
+    padding: 25px;
+  }
+
+  .mjs-story-content h3 {
+    font-size: 23px;
+  }
+
+  .mjs-inspire-heading h2 {
+    font-size: 27px;
   }
 }
 </style>
 
-<section class="inspiration" id="inspiration">
+<section class="mjs-inspire" id="inspiration">
 
-  <div class="inspiration-heading">
-    <h2>Farriimaha Dhiirrigelinta MJS</h2>
+  <div class="mjs-inspire-heading">
+    <h2>Fikirka iyo Himilada MJS</h2>
     <span></span>
-    <p>Fikir wanaagsan, jiil wanaagsan, mustaqbal wanaagsan.</p>
+    <p>
+      Jiil leh aragti, aqoon iyo awood uu ku dhiso
+      mustaqbalka Soomaaliyeed.
+    </p>
   </div>
 
-  <div class="inspiration-card">
-    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85"
-    alt="Dhalinyaro wada shaqaynaysa">
+  <!-- QORAALKA 1 -->
 
-    <div class="inspiration-text">
-      <h3>Jiilka Cusub, Rajada Soomaaliya</h3>
+  <div class="mjs-story">
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/0/03/2016_10_Youth_Conference-7_%2829608337704%29.jpg"
+      alt="Dhalinyaro Soomaaliyeed oo shir wadajir ah ku jira">
+
+    <div class="mjs-story-content">
+
+      <small>01 • JIILKA CUSUB</small>
+
+      <h3>Jiilka Cusub Waa Awoodda Mustaqbalka Soomaaliya</h3>
+
       <p>
-        Mustaqbalka dalkeenna wuxuu ku jiraa gacanta
-        jiil leh aqoon, karti, hal-abuur iyo masuuliyad.
-        Waa waqtigii aan muujin lahayn awooddeena.
+        Soomaaliya waxay leedahay jiil dhalinyaro ah oo
+        leh karti, aqoon, hal-abuur iyo awood uu wax weyn
+        ku beddeli karo. Jiilkaasi ma aha oo keliya
+        mustaqbalka dalka, balse waa qayb muhiim ah oo
+        ka mid ah dhismaha maanta.
       </p>
-      <strong>MJS – Jiilka Maanta, Mustaqbalka Berri.</strong>
+
+      <p>
+        MJS wuxuu aaminsan yahay in dhalinyarada la siiyo
+        fursad ay ku muujiyaan fikirkooda, kartidooda iyo
+        aragtidooda. Waxaa muhiim ah in la abuuro jiil
+        fahmaya masuuliyadda saaran, qiimaha waddaniyadda
+        iyo doorka uu ku leeyahay horumarka bulshada.
+      </p>
+
+      <p>
+        Isbeddelka wanaagsan wuxuu ka bilaabmaa qof leh
+        aragti, koox leh himilo iyo bulsho diyaar u ah
+        inay si wadajir ah u shaqeyso.
+      </p>
+
+      <strong>
+        MJS: Jiilka Maanta, Mustaqbalka Berri.
+      </strong>
+
+      <div class="mjs-photo-credit">
+        Sawir: AMISOM Public Information |
+        <a href="https://commons.wikimedia.org/wiki/File:2016_10_Youth_Conference-7_(29608337704).jpg">Isha sawirka</a>
+      </div>
+
     </div>
   </div>
 
-  <div class="inspiration-card">
-    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=85"
-    alt="Dhalinyaro iskaashanaysa">
+  <!-- QORAALKA 2 -->
 
-    <div class="inspiration-text">
-      <h3>Aqoontu Waa Awoodda Isbeddelka</h3>
+  <div class="mjs-story">
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/2/29/2016_10_Youth_Conference-10_%2830153209051%29.jpg"
+      alt="Dhalinyaro Soomaaliyeed oo wada-tashi sameynaya">
+
+    <div class="mjs-story-content">
+
+      <small>02 • WADA-TASHI IYO MIDNIMO</small>
+
+      <h3>Midnimadu Waa Aasaaska Bulsho Horumarta</h3>
+
       <p>
-        Bulsho aqoon leh waxay awood u leedahay inay
-        xaliso caqabadaha, abuurto fursado cusub,
-        isla markaana dhisato mustaqbal wanaagsan.
+        Bulsho kasta oo doonaysa horumar waara waxay u
+        baahan tahay wadajir, is-ixtiraam iyo wada-tashi.
+        Kala aragti duwanaanshuhu waa qayb ka mid ah
+        nolosha bulshada, balse waa in lagu maareeyaa
+        wadahadal, dulqaad iyo isfaham.
       </p>
-      <strong>MJS – Aqoon, Aragti iyo Horumar.</strong>
+
+      <p>
+        MJS wuxuu dhiirrigelinayaa in dhalinyarada
+        Soomaaliyeed ay yeeshaan madal ay ku wadaagaan
+        fikradahooda, ku falanqeeyaan arrimaha bulshada,
+        kuna soo bandhigaan xalal wax ku ool ah.
+      </p>
+
+      <p>
+        Midnimo macnaheedu ma aha in qof walba isku
+        fikir noqdo. Waxay ka dhigan tahay in dadka
+        kala aragti duwan ay yeeshaan ixtiraam iyo
+        ujeeddo guud oo ay ka wada shaqeeyaan.
+      </p>
+
+      <strong>
+        MJS: Kala duwanaansho fikir, midnimo himilo.
+      </strong>
+
+      <div class="mjs-photo-credit">
+        Sawir: AMISOM Public Information |
+        <a href="https://commons.wikimedia.org/wiki/File:2016_10_Youth_Conference-10_(30153209051).jpg">Isha sawirka</a>
+      </div>
+
     </div>
   </div>
 
-  <div class="inspiration-card">
-    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1000&q=85"
-    alt="Koox dhalinyaro ah">
+  <!-- QORAALKA 3 -->
 
-    <div class="inspiration-text">
-      <h3>Midnimo Waa Aasaaska Horumarka</h3>
+  <div class="mjs-story">
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/1b/2016_13_Youth_Conference-2_%2831503778471%29.jpg"
+      alt="Hoggaamiye dhalinyaro Soomaaliyeed oo khudbad jeedinaya">
+
+    <div class="mjs-story-content">
+
+      <small>03 • HOGGAAN IYO MASUULIYAD</small>
+
+      <h3>Hoggaanka Wanaagsan Wuxuu Ka Bilaabmaa Masuuliyad</h3>
+
       <p>
-        Kala duwanaanshaheennu yuusan naga hor istaagin
-        wadajir. Soomaaliya waxay u baahan tahay
-        iskaashi, is-ixtiraam iyo isku duubni.
+        Hoggaamintu ma aha oo keliya in xil la qabto
+        ama magac la yeesho. Waa awoodda lagu mideeyo
+        dadka, lagu dhageysto aragtidooda, laguna
+        hago hawlaha dan guud loogu adeegayo.
       </p>
-      <strong>MJS – Midnimo, Hoggaan iyo Horumar.</strong>
+
+      <p>
+        MJS wuxuu hiigsanayaa in la dhiirrigeliyo jiil
+        fahmaya qiimaha daacadnimada, hufnaanta,
+        caddaaladda iyo isla-xisaabtanka. Hoggaamiye
+        wanaagsan waa qof tusaale wanaagsan u noqda
+        dadka uu la shaqeynayo.
+      </p>
+
+      <p>
+        Waxaan aaminsanahay in Soomaaliya u baahan tahay
+        hoggaan leh aragti fog, go'aan wanaagsan iyo
+        masuuliyad uu bulshada hortooda ku qaado.
+      </p>
+
+      <strong>
+        MJS: Hoggaan daacad ah, himilo fog.
+      </strong>
+
+      <div class="mjs-photo-credit">
+        Sawir: AMISOM Public Information |
+        <a href="https://commons.wikimedia.org/wiki/File:2016_13_Youth_Conference-2_(31503778471).jpg">Isha sawirka</a>
+      </div>
+
     </div>
   </div>
 
-    </section>
-https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&f
-<!DOCTYPE html>
-<html lang="so">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MJS Official</title>
-<style>
-body{margin:0;font-family:Arial;background:#f3f6fa;color:#17283d}
-header{background:#102b50;color:white;text-align:center;padding:35px 15px;border-bottom:5px solid #d9b45b}
-.logo{font-size:35px;font-weight:bold;color:#d9b45b}
-main{max-width:650px;margin:25px auto;padding:15px}
-section{background:white;padding:22px;margin:15px 0;border-radius:14px}
-h2{color:#102b50}
-.item{background:#edf2f8;padding:15px;margin:10px 0;border-radius:10px}
-footer{text-align:center;background:#102b50;color:white;padding:22px}
-a{color:#d9b45b}
-</style>
-</head>
-<body>
-<header>
-<div class="logo">MJS</div>
-<h1>MJS OFFICIAL</h1>
-<p>Midnimo • Hoggaan • Horumar</p>
-</header>
-<main>
-<section>
-<h2>Ku soo dhowow MJS</h2>
-<p>Ku soo dhowow bogga rasmiga ah ee Ururka MJS.</p>
-<p>Halkaan kala soco wararka, hoggaanka iyo hawlaha ururka.</p>
-</section>
-<section>
-<h2>Hoggaanka MJS</h2>
-<div class="item">Guddoomiyaha Guud</div>
-<div class="item">Xoghayaha Guud</div>
-<div class="item">Madaxa Maaliyadda</div>
-<div class="item">Madaxa Warfaafinta</div>
-<div class="item">Madaxa Abaabulka</div>
-</section>
-<section>
-<h2>Wararka iyo Ogeysiisyada</h2>
-<p>Ku soo dhowaada bogga rasmiga ah ee MJS.</p>
-</section>
-<section>
-<h2>La xiriir MJS</h2>
-<p>Macluumaadka xiriirka ururka halkan ayaa lagu soo bandhigi doonaa.</p>
-</section>
-</main>
-<footer>© MJS Official 2026</footer>
-</body>
-</html>
+  <!-- FARriinta UGU DAMBAYSA -->
 
-  
+  <div class="mjs-final-message">
+
+    <h2>Mustaqbalka Soomaaliya Wuu Inaga Bilaabmaa</h2>
+
+    <p>
+      Maanta waa waqtigii aan dhisi lahayn aragti
+      mideysan, jiil aqoon leh iyo bulsho ku dhisan
+      wadajir. Ma sugi karno mustaqbal wanaagsan
+      innagoo aan maanta waxba qaban.
+      Qof walba wuxuu leeyahay door uu ka qaadan karo
+      dhismaha Soomaaliya.
+    </p>
+
+    <br>
+
+    <h3 style="color:#d6ad52;">
+      MJS — MIDNIMO • HOGGAAN • HORUMAR
+    </h3>
+
+  </div>
+
+</section>
+
